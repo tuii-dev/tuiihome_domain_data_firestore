@@ -1,7 +1,20 @@
 library tuiihome_domain_data_firestore;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'files/data/datasources/tutor_lesson_index_data_source.dart';
+export 'files/data/datasources/tutor_lesson_index_data_source_impl.dart';
+export 'files/data/repositories/tutor_lesson_index_repository_impl.dart';
+export 'files/domain/repositories/tutor_lesson_index_repository.dart';
+export 'files/domain/usecases/add_lesson_index.dart';
+export 'files/domain/usecases/delete_lessons_and_indexes.dart';
+export 'files/domain/usecases/get_classroom_lessons.dart';
+export 'files/domain/usecases/get_lesson_classroom.dart';
+export 'files/domain/usecases/get_lesson_classroom_resources.dart';
+export 'files/domain/usecases/get_lesson_classroom_tasks.dart';
+export 'files/domain/usecases/get_lesson_index_stream_manager.dart';
+export 'files/domain/usecases/get_lesson_indexes.dart';
+export 'files/domain/usecases/get_lesson_student.dart';
+export 'files/domain/usecases/get_lessons_from_indexes.dart';
+export 'files/domain/usecases/lesson_index_stream_manager.dart';
+export 'files/domain/usecases/update_lesson_shim.dart';
+export 'files/domain/usecases/update_pending_subsequent_approval.dart';
+export 'tuiihome_domain_data_firestore.dart';
